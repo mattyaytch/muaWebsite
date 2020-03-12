@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+div#container {
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    display: block-inline;
+    float:left;
+    height: 100%;
+    width: 50%;
+}
+
+section#right {
+    background-color: #f4dce2;
+}
+
+section#left {
+    background-color: #ffffff;
+    min-width: 600px;
+    min-height: 600px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#bookNow {
+    display: inline-block;
+    background-color: #0e1e24;
+    padding-top: 0.4em;
+    padding-right: 1.44em;
+    padding-bottom: 0.4em;
+    padding-left: 1.44em;
+    color: pink;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 5px;
+    border: 2px solid #333;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #viewMyWork {
+    display: inline-block;
+    background-color: #0e1e24;
+    padding-top: 0.4em;
+    padding-right: 1.44em;
+    padding-bottom: 0.4em;
+    padding-left: 1.44em;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: 5px;
+    border: 2px solid #333333;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+  #bookNow:hover {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+#viewMyWork:hover {
+    background-color: #333333;
+    color: pink;
+  }
+
+#bookingScreen {
+    display: block;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.445);
+    height: 600px;
+    width: 600px;
+    opacity: 0;
+    padding: 0;
+    margin: 10% 10%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.445);
+    transition: opacity .5s;
+}
+
+#bookingForm {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* svg {
+    transform: rotate(90deg);
+    overflow: hidden;
+    scroll: none;
+} */
